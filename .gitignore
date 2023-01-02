@@ -1,12 +1,44 @@
+# Ignore temporary files (left by editors and OS)
+*~
+*.bak
+*.swp
 .DS_Store
-.idea
+#
+# Ignore by common IDEs used directories/files
 nbproject
+*.idea
+*.project
+.buildpath
+.settings
+.TemporaryItems
+.webprj
+#
+# Temporary files and folders
+.cache
+.php_cs.cache
+.sass-cache
+.session
+*.log
+#
+# Ignore common TYPO3 CMS files/directories
+.env
+/Configuration
+node_modules
+/src/resources/assets/js/webpacked.js
+/private/fileadmin
+/private/index.php
+/private/.htaccess
+/private/typo3
+/private/typo3temp
+/private/typo3conf/PackageStates.php
+/private/typo3conf/ext
+/private/uploads
 /var/*
 !/var/labels
+!/var/sitelanguageredirection
 /vendor
 /public/*
-!/public/.htaccess
-!/public/typo3conf
-/public/typo3conf/*
-!/public/typo3conf/LocalConfiguration.php
-!/public/typo3conf/AdditionalConfiguration.php
+!/public/clearcache.php
+!/public/apple-touch-icon.png
+!/public/favicon.*
+!/public/manifest.json
