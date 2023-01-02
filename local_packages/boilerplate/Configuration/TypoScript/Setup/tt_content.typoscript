@@ -1,0 +1,5 @@
+lib.contentElement {
+   templateRootPaths {
+      10 = EXT:boilerplate/Resources/Private/Templates/Page/
+   }
+}

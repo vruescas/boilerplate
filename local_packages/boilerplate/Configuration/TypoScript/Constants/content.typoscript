@@ -1,0 +1,5 @@
+page.templates {
+ templateRootPath = EXT:boilerplate/Resources/Private/Templates/ContentElements/
+ partialsRootPath = EXT:boilerplate/Resources/Private/Partials/ContentElements/
+ layoutRootPath = EXT:boilerplate/Resources/Private/Layouts/ContentElements/
+}

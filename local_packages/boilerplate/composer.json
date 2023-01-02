@@ -1,0 +1,27 @@
+{
+  "name": "boilerplate/boilerplate",
+  "type": "typo3-cms-extension",
+  "description": "",
+  "license": "GPL-2.0-or-later",
+  "require": {
+    "typo3/cms-core": "^12.1"
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "boilerplate"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Boilerplate\\Boilerplate\\": "Classes/"
+    }
+  },
+  "scripts": {
+    "post-autoload-dump": [
+      "@prepare-extension-test-structure"
+    ],
+    "prepare-extension-test-structure": [
+      "Nimut\\TestingFramework\\Composer\\ExtensionTestEnvironment::prepare"
+    ]
+  }
+}
