@@ -1,17 +1,21 @@
-base: 'https://boilerplate.ddev.site/voltetaicerveseta'
-errorHandling: {  }
+base: 'https://www.voltetaicerveseta.es/'
+baseVariants:
+  -
+    base: 'https://boilerplate.ddev.site/voltetaicerveseta'
+    condition: 'applicationContext == "Development/Local"'
 languages:
   -
-    title: English
+    title: Spanish
     enabled: true
     languageId: 0
     base: /
-    typo3Language: default
-    locale: en_US.UTF-8
-    iso-639-1: en
-    navigationTitle: English
-    hreflang: en-gb
+    typo3Language: es
+    locale: eu_ES
+    iso-639-1: es
+    navigationTitle: Español
+    hreflang: es-es
     direction: ltr
-    flag: gb
+    flag: es
+    websiteTitle: ''
 rootPageId: 1
-routes: {  }
+websiteTitle: 'Volteta i Cerveseta'
