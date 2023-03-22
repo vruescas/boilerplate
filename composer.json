@@ -23,6 +23,7 @@
 	"require": {
 		"bk2k/bootstrap-package": "^13.0",
 		"boilerplate/boilerplate": "@dev",
+		"boilerplate/strava_members": "@dev",
 		"helhum/dotenv-connector": "^3.0",
 		"typo3/cms-backend": "^12.1.0",
 		"typo3/cms-belog": "^12.1.0",

@@ -1,7 +1,7 @@
 base: 'https://www.voltetaicerveseta.es/'
 baseVariants:
   -
-    base: 'https://boilerplate.ddev.site/voltetaicerveseta'
+    base: 'https://boilerplate.ddev.site/'
     condition: 'applicationContext == "Development/Local"'
 languages:
   -

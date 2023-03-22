@@ -1,7 +1,7 @@
 <?php
 return [
     'BE' => [
-        'debug' => false,
+        'debug' => true,
         'installToolPassword' => '$argon2i$v=19$m=65536,t=16,p=1$dEZ4Rm15T1MxT2dtdDRmMA$WsALW0eUh/fj0+VNdW6XEnsTaNuYuZfS8J/x210wv5s',
         'passwordHashing' => [
             'className' => 'TYPO3\\CMS\\Core\\Crypto\\PasswordHashing\\Argon2iPasswordHash',
@@ -114,10 +114,10 @@ return [
                 ],
             ],
         ],
-        'devIPmask' => '',
+        'devIPmask' => '*',
         'displayErrors' => 0,
         'encryptionKey' => 'c0051d4416ff4855f5f10b777c56ea027f3b0c0e0bd45048d6e60dcf6c4a013cf07e7f1da9f2b464474e4a0b4315238f',
-        'exceptionalErrors' => 4096,
+        'exceptionalErrors' => 1,
         'sitename' => 'New TYPO3 Project',
         'systemMaintainers' => [
             1,

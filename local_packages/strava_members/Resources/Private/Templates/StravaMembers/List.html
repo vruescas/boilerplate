@@ -1,0 +1,12 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers">
+<table>
+    <tr>
+        <td>Member id</td>
+    </tr>
+    <f:for each="{members}" as="member">
+        <tr>
+            <td>{member.stravaId}</td>
+        </tr>
+    </f:for>
+</table>
+</html>

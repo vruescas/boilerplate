@@ -1,0 +1,5 @@
+lib.contentElement {
+   templateRootPaths {
+      10 = EXT:strava_members/Resources/Private/Templates/Page/
+   }
+}

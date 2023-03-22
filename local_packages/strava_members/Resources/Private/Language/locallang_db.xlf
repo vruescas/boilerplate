@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2017-11-27T17:38:32Z" product-name="strava_members">
+        <header/>
+        <body>
+            <trans-unit id="extension.title">
+                <source>Strava Members</source>
+            </trans-unit>
+            <trans-unit id="tx_stravamembers_domain_model_member">
+                <source>Member</source>
+            </trans-unit>
+            <trans-unit id="tx_stravamembers_domain_model_member.strava_id">
+                <source>Strava Id</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
