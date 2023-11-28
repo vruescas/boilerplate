@@ -1,0 +1,6 @@
+tt_content {
+    boilerplate_hero =< lib.contentElement
+    boilerplate_hero {
+        templateName = Hero
+    }
+}

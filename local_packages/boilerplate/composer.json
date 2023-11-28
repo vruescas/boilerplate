@@ -15,13 +15,5 @@
     "psr-4": {
       "Boilerplate\\Boilerplate\\": "Classes/"
     }
-  },
-  "scripts": {
-    "post-autoload-dump": [
-      "@prepare-extension-test-structure"
-    ],
-    "prepare-extension-test-structure": [
-      "Nimut\\TestingFramework\\Composer\\ExtensionTestEnvironment::prepare"
-    ]
   }
 }

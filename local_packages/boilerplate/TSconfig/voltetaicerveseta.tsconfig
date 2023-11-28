@@ -1,2 +1,0 @@
-<INCLUDE_TYPOSCRIPT: source="DIR:EXT:boilerplate/Configuration/TSconfig/Page/" extensions="tsconfig">
-<INCLUDE_TYPOSCRIPT: source="DIR:EXT:boilerplate/Configuration/TSconfig/Ce/" extensions="tsconfig">

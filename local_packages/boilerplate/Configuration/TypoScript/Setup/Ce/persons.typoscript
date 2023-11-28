@@ -1,0 +1,12 @@
+tt_content {
+    boilerplate_persons =< lib.contentElement
+    boilerplate_persons {
+        templateName = Persons
+         dataProcessing {
+            1 = Boilerplate\Boilerplate\DataProcessing\ItemsProcessor
+            1{
+                itemsRepository = Boilerplate\Boilerplate\Domain\Repository\PersonRepository
+            }
+        }
+    }
+}

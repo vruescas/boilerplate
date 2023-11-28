@@ -1,0 +1,33 @@
+mod.wizards.newContentElement.wizardItems {
+  // add the content element to the tab "common"
+  common {
+    elements {
+      boilerplate_hero {
+        iconIdentifier = content-text
+        title = LLL:EXT:boilerplate/Resources/Private/Language/locallang.xlf:boilerplate_hero_title
+        description = LLL:EXT:boilerplate/Resources/Private/Language/locallang.xlf:boilerplate_hero_description
+        tt_content_defValues {
+          CType = boilerplate_hero
+        }
+      }
+    }
+    show := addToList(boilerplate_hero)
+  }
+}
+
+mod.wizards.newContentElement.wizardItems {
+  // add the content element to the tab "common"
+  common {
+    elements {
+      boilerplate_persons {
+        iconIdentifier = content-text
+        title = LLL:EXT:boilerplate/Resources/Private/Language/locallang.xlf:boilerplate_persons_title
+        description = LLL:EXT:boilerplate/Resources/Private/Language/locallang.xlf:boilerplate_persons_description
+        tt_content_defValues {
+          CType = boilerplate_persons
+        }
+      }
+    }
+    show := addToList(boilerplate_persons)
+  }
+}
