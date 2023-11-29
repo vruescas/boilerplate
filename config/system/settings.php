@@ -2,25 +2,15 @@
 return [
     'BE' => [
         'debug' => true,
-        'installToolPassword' => '$argon2i$v=19$m=65536,t=16,p=1$dEZ4Rm15T1MxT2dtdDRmMA$WsALW0eUh/fj0+VNdW6XEnsTaNuYuZfS8J/x210wv5s',
-        'passwordHashing' => [
-            'className' => 'TYPO3\\CMS\\Core\\Crypto\\PasswordHashing\\Argon2iPasswordHash',
-            'options' => [],
-        ],
     ],
     'DB' => [
         'Connections' => [
             'Default' => [
                 'charset' => 'utf8mb4',
-                'dbname' => 'db',
                 'driver' => 'mysqli',
-                'host' => 'db',
+                'host' => '127.0.0.1',
                 'password' => 'db',
                 'port' => 3306,
-                'tableoptions' => [
-                    'charset' => 'utf8mb4',
-                    'collate' => 'utf8mb4_unicode_ci',
-                ],
                 'user' => 'db',
             ],
         ],
@@ -49,94 +39,29 @@ return [
             'automaticInstallation' => '1',
             'offlineMode' => '0',
         ],
-        'mask' => [
-            'backend' => 'EXT:boilerplate/Resources/Private/Mask/Backend/Templates',
-            'backend_layouts_folder' => '',
-            'backendlayout_pids' => '0',
-            'content' => 'EXT:boilerplate/Resources/Private/Mask/Frontend/Templates',
-            'content_elements_folder' => '',
-            'json' => 'EXT:boilerplate/Configuration/Mask/mask.json',
-            'layouts' => 'EXT:boilerplate/Resources/Private/Mask/Frontend/Layouts',
-            'layouts_backend' => 'EXT:boilerplate/Resources/Private/Mask/Backend/Layouts',
-            'loader_identifier' => 'json',
-            'partials' => 'EXT:boilerplate/Resources/Private/Mask/Frontend/Partials',
-            'partials_backend' => 'EXT:boilerplate/Resources/Private/Mask/Backend/Partials',
-            'preview' => 'EXT:boilerplate/Resources/Public/Mask/',
-        ],
     ],
     'FE' => [
-        'debug' => false,
-        'passwordHashing' => [
-            'className' => 'TYPO3\\CMS\\Core\\Crypto\\PasswordHashing\\Argon2iPasswordHash',
-            'options' => [],
-        ],
-    ],
-    'GFX' => [
-        'processor' => 'ImageMagick',
-        'processor_allowTemporaryMasksAsPng' => false,
-        'processor_colorspace' => 'sRGB',
-        'processor_effects' => true,
-        'processor_enabled' => true,
-        'processor_path' => '/usr/bin/',
-    ],
-    'LOG' => [
-        'TYPO3' => [
-            'CMS' => [
-                'deprecations' => [
-                    'writerConfiguration' => [
-                        'notice' => [
-                            'TYPO3\CMS\Core\Log\Writer\FileWriter' => [
-                                'disabled' => true,
-                            ],
-                        ],
-                    ],
-                ],
-            ],
-        ],
-    ],
-    'MAIL' => [
-        'transport' => 'sendmail',
-        'transport_sendmail_command' => '/usr/local/bin/mailhog sendmail test@example.org --smtp-addr 127.0.0.1:1025',
-        'transport_smtp_encrypt' => '',
-        'transport_smtp_password' => '',
-        'transport_smtp_server' => '',
-        'transport_smtp_username' => '',
+        'disableNoCacheParameter' => true,
     ],
     'SYS' => [
-        'caching' => [
-            'cacheConfigurations' => [
-                'hash' => [
-                    'backend' => 'TYPO3\\CMS\\Core\\Cache\\Backend\\Typo3DatabaseBackend',
-                ],
-                'imagesizes' => [
-                    'backend' => 'TYPO3\\CMS\\Core\\Cache\\Backend\\Typo3DatabaseBackend',
-                    'options' => [
-                        'compression' => true,
-                    ],
-                ],
-                'pages' => [
-                    'backend' => 'TYPO3\\CMS\\Core\\Cache\\Backend\\Typo3DatabaseBackend',
-                    'options' => [
-                        'compression' => true,
-                    ],
-                ],
-                'rootline' => [
-                    'backend' => 'TYPO3\\CMS\\Core\\Cache\\Backend\\Typo3DatabaseBackend',
-                    'options' => [
-                        'compression' => true,
-                    ],
-                ],
-            ],
-        ],
+        'belogErrorReporting' => '22517',
         'devIPmask' => '*',
-        'displayErrors' => 0,
-        'encryptionKey' => 'c0051d4416ff4855f5f10b777c56ea027f3b0c0e0bd45048d6e60dcf6c4a013cf07e7f1da9f2b464474e4a0b4315238f',
-        'exceptionalErrors' => 1,
-        'sitename' => 'New TYPO3 Project',
+        'displayErrors' => 1,
+        'encryptionKey' => 'b9dc55e4ca46784e9a84e32d0356ecf7cf2353c3bca1b6e71b305690a002910e7cbb3e009a15ccc5635a187f2200bece',
+        'errorHandlerErrors' => '22517',
+        'exceptionalErrors' => 12290,
+        'features' => [
+            'felogin.extbase' => true,
+            'fluidBasedPageModule' => true,
+            'rearrangedRedirectMiddlewares' => true,
+            'security.usePasswordPolicyForFrontendUsers' => true,
+            'unifiedPageTranslationHandling' => true,
+            'yamlImportsFollowDeclarationOrder' => true,
+        ],
+        'sitename' => 'New TYPO3 site',
         'systemMaintainers' => [
             1,
-            1,
+            3,
         ],
-        'trustedHostsPattern' => '.*.*',
     ],
 ];
