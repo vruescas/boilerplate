@@ -1,0 +1,10 @@
+.prose blockquote {
+    border-left-width: 0.06rem !important;
+    border-left-color: #F15F22 !important;
+    font-weight: 400 !important;
+}
+
+.blockquote-without-border blockquote{
+    border-left-width: 0 !important;
+    border-left-color: transparent !important;
+}

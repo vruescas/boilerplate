@@ -1,0 +1,26 @@
+tt_content {
+    boilerplate_team =< lib.contentElement
+    boilerplate_team {
+        templateName = Team
+        dataProcessing {
+            10 = database-query
+            10{
+                if.isTrue.field = irre_team
+                pidInList.field = pid
+                table = tx_boilerplate_domain_model_ce_team
+                orderBy = sorting
+                as = teams
+                dataProcessing {
+                    10 = database-query
+                    10 {
+                      if.isTrue.field = members
+                      pidInList.field = pid
+                      table = tx_boilerplate_domain_model_ce_teammember
+                      orderBy = sorting
+                      as = members
+                    }
+                }
+            }
+       }
+    }
+}

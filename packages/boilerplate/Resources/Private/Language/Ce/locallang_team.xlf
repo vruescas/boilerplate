@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2020-07-02T09:00:00Z" product-name="boilerplate">
+        <header/>
+        <body>
+            <trans-unit id="tt_content.newContentElementWizzard.title">
+                <source>Team</source>
+            </trans-unit>
+            <trans-unit id="tt_content.CType">
+                <source>Team</source>
+            </trans-unit>
+            <trans-unit id="tt_content.preview.title">
+                <source>Team</source>
+            </trans-unit>
+            <trans-unit id="tt_content.irre_team">
+                <source>Team</source>
+            </trans-unit>
+            <trans-unit id="tablename">
+                <source>Team</source>
+            </trans-unit>
+            <trans-unit id="tx_boilerplate_domain_model_ce_team.name">
+                <source>Name</source>
+            </trans-unit>
+            <trans-unit id="tx_boilerplate_domain_model_ce_team.members">
+                <source>Members</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

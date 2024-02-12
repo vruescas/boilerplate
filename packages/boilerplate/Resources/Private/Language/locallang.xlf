@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2020-07-02T09:00:00Z" product-name="boilerplate">
+        <header/>
+        <body>
+            <trans-unit id="boilerplate_hero_title">
+                <source>Hero</source>
+            </trans-unit>
+            <trans-unit id="boilerplate_hero_description">
+                <source>Add Hero</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

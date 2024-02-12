@@ -1,0 +1,17 @@
+lib.contentElement {
+   templateRootPaths {
+      5 = EXT:boilerplate/Resources/Private/Templates/fluid_styled_content/
+      7 = EXT:boilerplate/Resources/Private/Templates/Ce/
+      9 = EXT:boilerplate/Resources/Private/Templates/CeOverrides/
+      11 = EXT:boilerplate_product/Resources/Private/Templates/
+   }
+   partialRootPaths {
+      5 = EXT:boilerplate/Resources/Private/Partials/fluid_styled_content/
+      7 = EXT:boilerplate/Resources/Private/Partials/
+      14 = EXT:boilerplate_product/Resources/Private/Partials/
+   }
+   layoutRootPaths {
+      5 = EXT:boilerplate/Resources/Private/Layouts/
+      7 = EXT:boilerplate/Resources/Private/Layouts/fluid_styled_content/
+   }
+}

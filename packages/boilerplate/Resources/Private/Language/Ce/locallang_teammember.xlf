@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2020-07-02T09:00:00Z" product-name="boilerplate">
+        <header/>
+        <body>
+            <trans-unit id="tablename">
+                <source>Team Member</source>
+            </trans-unit>
+            <trans-unit id="tx_boilerplate_domain_model_teammember.member_name">
+                <source>Name</source>
+            </trans-unit>
+           <trans-unit id="tx_boilerplate_domain_model_teammember.member_short_info">
+               <source>Short Info</source>
+           </trans-unit>
+            <trans-unit id="tx_boilerplate_domain_model_teammember.member_description">
+                <source>Description</source>
+            </trans-unit>
+            <trans-unit id="tx_boilerplate_domain_model_teammember.member_image">
+                <source>Image</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

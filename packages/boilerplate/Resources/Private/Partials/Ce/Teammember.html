@@ -1,0 +1,13 @@
+<html data-namespace-typo3-fluid="true"
+      xmlns:f="http://typo3.org/ns/TYPO3/Fluid/ViewHelpers"
+      xmlns:b="http://typo3.org/ns/Boilerplate/Boilerplate/ViewHelpers"
+>
+
+<f:section name="Main">
+    <f:for as="member" each="{team.members}">
+        <li>
+            {member.data.member_name}
+        </li>
+    </f:for>
+</f:section>
+</html>

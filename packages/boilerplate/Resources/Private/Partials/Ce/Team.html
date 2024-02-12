@@ -1,0 +1,19 @@
+<html data-namespace-typo3-fluid="true"
+      xmlns:f="http://typo3.org/ns/TYPO3/Fluid/ViewHelpers"
+      xmlns:b="http://typo3.org/ns/Boilerplate/Boilerplate/ViewHelpers"
+>
+
+<f:section name="Main">
+    <f:if condition="{teams}">
+        <f:for as="team" each="{teams}">
+            <h2>
+                {team.data.name}
+            </h2>
+            <ul>
+                <f:render section="Main" partial="Ce/Teammember" arguments="{team: team}" />
+            </ul>
+        </f:for>
+    </f:if>
+</f:section>
+
+</html>
